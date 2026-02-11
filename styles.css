@@ -1,0 +1,362 @@
+html {
+  background-color: #aaaadd;
+  color: rgb(208, 217, 224);
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:#000;
+}
+
+@media (max-width: 812px) and (min-width: 500px) {
+  .link-container {
+    position: relative;
+    display: flex;
+
+  }
+  
+  .logo-super-block {
+    position: relative;
+    
+  }
+
+  #nav-bar {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    width: 100%;
+  }
+
+  main {
+    max-width: 95%;
+  }
+}
+
+#Why_choosing_us,
+#Languages,
+form {
+  width: 55%;
+  margin: 0 auto;
+}
+
+#nav-bar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(170, 170, 221);
+  position: fixed;
+  top: 0;
+}
+
+.fi-tr-language-exchange  {
+  display: inline-block;
+  color: rgb(236, 231, 231);
+  vertical-align: top;
+  width: 100px;
+  height: 50px;
+  margin: 10px 10px 0 10px;
+  font-size: 1.8rem;
+}
+
+.logo-block {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-right: 600px;
+  position: fixed;
+  left: 20px;
+  top: -30px;
+}
+
+.logo-super-block {
+  display: block;
+  text-wrap: nowrap;
+}
+
+#header-img {
+  height: 70px;
+}
+
+.logo {
+  font-size: 1.7rem;
+}
+
+.kuni {
+  font-size: 0.5rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: end;
+  margin-top: -7px;
+  margin-right: 10px;
+}
+
+.nav-link {
+  font-size: 25px;
+  color: #000;
+  text-decoration: none;
+  border-right: #000 solid 1px;
+  padding-right: 6px;
+
+}
+
+.nav-link:last-of-type {
+  border-right: none;
+}
+
+.link-container {
+  display: block;
+  margin-top: 20px;
+  position: fixed;
+  right: 10px;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #d134aa, 0 0 1em #33aaaa, 0 0 0.2em #33aaaa;
+}
+
+.nav-link:target {
+  color: #8cdfd6;
+  text-shadow: #6f00ff 5px 0 10px;
+}
+
+#Why_choosing_us .fi {
+  color: #34d1bf;
+  text-shadow: 1px 1px 2px #33aaaa, 0 0 1em rgb(255, 254, 254), 0 0 0.2em rgb(255, 255, 255);
+  font-size: 1.5rem !important;
+  margin-top: 35px;
+  padding-right: 30px;
+}
+
+.reason1, .reason2, .reason3 {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#Why_choosing_us p {
+  margin-top: -20px;
+  margin-left: 75px;
+}
+
+
+.lg {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  font-size: 5rem;
+}
+
+.lg .fi:hover,
+footer .hover:hover {
+  color: #d134aa;
+  text-shadow: 1px 1px 2px #33aaaa, 0 0 1em rgb(255, 254, 254), 0 0 0.2em rgb(255, 255, 255);
+}
+
+.lang {
+  text-align: center;
+}
+
+h2 {
+  visibility: hidden;
+}
+
+.card {
+  display: flex;
+  flex-flow: column;  
+  align-items: center;
+  text-align: center; 
+  margin: 10px;
+  border: 1px solid #34d1bf;
+  border-radius: 24px;
+  width: 28%;
+  background-color: #33aaaa2b;
+  margin-bottom: 5rem;
+}
+
+.card h3 {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #34d1bf;
+  border: none;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.card h5 {
+  margin: 0 auto;
+  font-weight: lighter;
+  width: 100%;
+  background-color: #34d1bf;
+
+}
+
+.card p {
+  text-align: justify;
+  margin: 0 1rem;
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+.btn,
+#submit {
+  background-color: #34d1bf;
+  border: double #34d1bf 5px;
+  border-radius: 15px;
+  font-size: 1rem;
+  width: 150px;
+  height: 50px;
+  margin: 20px 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.btn:hover,
+#submit:hover {
+  background-color: #d134aa;
+  color: #f7f4f4;
+}
+
+.card:hover {
+  border: 2px solid #d134aa
+}
+
+#video-frame {
+  display: block;
+  margin: 0 auto;
+  width: 55%;
+  text-align: center;
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+#name, 
+#email {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border-radius: 2%;
+  border: #34d1bf solid 2px;
+}
+
+#name:focus,
+#email:focus  {
+  outline: #d134aa solid 3px;
+  
+}
+
+#submit {
+ display: block;
+ margin: 0 auto;
+ margin-top: 1rem;
+}
+
+form {
+  display: block;
+  margin-top: 5rem;
+}
+
+::placeholder {
+  color: #34d1bf;
+  opacity: 1;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+form h4 {
+  text-align: center;
+}
+
+input {
+  padding: 0.4rem;
+}
+
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  font-size: 0.7rem;
+  background-color: rgb(170, 170, 221);
+  margin-top: 4rem;
+}
+
+/*
+@media (max-width: 860px) and (min-width: 780) {
+
+  .logo-block {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-right: 600px;
+    position: fixed;
+    left: 20px;
+    top: -30px;
+  }
+
+  #header-img {
+    height: 50px;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 860px) and (min-width: 600px) {
+
+  .logo-block {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-right: 600px;
+    position: fixed;
+    left: 20px;
+    top: -0px;
+  }
+
+  #header-img {
+    height: 50px;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+
+  .kuni {
+    font-size: 0.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    margin-top: -7px;
+    margin-right: 10px;
+  }
+
+  .nav-link {
+    font-size: 25px;
+    color: #000;
+    text-decoration: none;
+    border-right: #000 solid 1px;
+    padding-right: 6px;
+
+  }
+
+  .nav-link:last-of-type {
+    border-right: none;
+  }
+
+  .link-container {
+    display: block;
+    margin-top: 20px;
+    position: fixed;
+    right: 10px;
+  }
+
+}
