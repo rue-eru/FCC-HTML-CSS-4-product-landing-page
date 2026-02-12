@@ -7,10 +7,6 @@ A product landing page project built in 2024 as part of my FreeCodeCamp Responsi
 
 The project only consists of **HTML** + **CSS** and was made as a part of FreeCodeCamp's Responsive Web Design course.
 
->[My official FCC's Certificate](https://www.freecodecamp.org/certification/fcc058fd235-9bca-44b6-b085-10ee4a9bdda6/responsive-web-design)
-
-![Certificate](./public/responsive-web-design.png)
-
 ---
 ## 📋 Project Requirements
 
@@ -53,7 +49,9 @@ Looking back now, I can see how far I've come. It was the moment CSS layouts sta
 
 For previous FCC's projects from that course I only changed the images to be local but for this one i didn't do it since they are Flaticon imports. And since its screen breakpoints are not satisfactory for the mobile devices only one GIF is displayed.
 
-![Page Gif](./public/demo.gif)
+| **Product Landing Page Preview** |
+|---|
+| ![Page Gif](./public/demo.gif) |
 
 <div align="right"><i>submitted to FreeCodeCamp on Oct 30, 2024</i></div>
 
@@ -64,4 +62,6 @@ For previous FCC's projects from that course I only changed the images to be loc
 [![Live Demo](https://img.shields.io/badge/demo-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rue-eru.github.io/FCC-HTML-CSS-4-product-landing-page/)
 ---
 
-*Part of my [FreeCodeCamp journey](https://www.freecodecamp.org/certification/fcc058fd235-9bca-44b6-b085-10ee4a9bdda6/responsive-web-design)*
+| My official [FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/certification/fcc058fd235-9bca-44b6-b085-10ee4a9bdda6/responsive-web-design) |
+|---|
+| ![Certificate](./public/responsive-web-design.png) |
